@@ -34,15 +34,15 @@ body {
     text-align: center;
 }
 
+.contact-information h2 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
 .contact-information span {
     margin-left: 10px;
     color: hsl(0, 0%, 59%);
     font-weight: 400;
-}
-
-.contact-information h2 {
-    font-size: 18px;
-    margin-bottom: 0;
 }
 
 .contact-information h3 {
@@ -51,4 +51,14 @@ body {
     color: hsl(0, 0%, 59%);
     font-weight: 400;
     font-size: 14px;
+}
+
+.social-media-info {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section {
+    text-align: center;
 }
