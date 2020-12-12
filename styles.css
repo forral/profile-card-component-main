@@ -1,3 +1,7 @@
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -9,13 +13,12 @@
 .component {
     margin: 200px auto;
     width: 350px;
-    background-color: grey;
 }
 
 .component img {
     border-radius: 50%;
     position: relative;
-    top: -50px;
+    top: 90px;
     left: 125px;
     border: 5px solid white;
 }
@@ -26,5 +29,26 @@
 }
 
 .contact-information {
+    padding-top: 60px;
+    border-bottom: 1px solid hsl(0, 0%, 59%);
     text-align: center;
+}
+
+.contact-information span {
+    margin-left: 10px;
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+
+.contact-information h2 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.contact-information h3 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    font-size: 14px;
 }
